@@ -1,0 +1,436 @@
+.body {
+  background-color: #f3f2ef;
+  padding-top: 53px;
+}
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+
+i:hover {
+  color: black;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: white;
+}
+
+button.ref:hover {
+  color: #5f5f5f;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+/**** Navbar Start ****/
+/**** Navbar Start ****/
+.navbar {
+  height: 53px;
+  padding: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08)
+}
+
+.navbar .nav-link {
+  padding-top: 5px;
+  margin: 0 5px;
+}
+
+.navbar .profile a{
+  padding-top: 5px;
+}
+
+/**** Logo ****/
+.logo i {
+  color: #0a66c2;
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+/**** Searchbar ****/
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  width: 280px;
+  border: 0;
+  margin: 0;
+  padding: 0 8px 2px 40px;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color: grey;
+}
+
+/**** Searchbar Icon****/
+.srcicon {
+  height: 14px;
+  width: 14px;
+  opacity: 0.6;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+
+/**** Navbarmenu ****/
+.navbarmenu a {
+  text-align: center;
+}
+
+.menutext {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 6px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.profile .menutext {
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/**** Navbar End ****/
+/**** Navbar End ****/
+
+/**** LeftPanel Start ****/
+/**** LeftPanel Start ****/
+
+/**** Profile ****/
+.left-panel .card .card-header.profile {
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+  height: 53px;
+  border-radius: 10px 10px 0 0;
+}
+
+.left-panel .profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.left-panel .description {
+  margin-bottom: 10px;
+  color: #5f5f5f;
+  font-size: 13px;
+  text-align: center;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+/**** Pages ****/
+.left-panel .pages {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.left-panel .info {
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
+}
+
+/**** News ****/
+
+.newscard .card-header {
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 0;
+  border-radius: 50px;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.bold-13-gray {
+  font-weight: bold;
+  font-size: 13px;
+  color: #5f5f5f
+}
+
+/**** LeftPanel End ****/
+/**** LeftPanel End ****/
+
+
+/**** MidPanel Start ****/
+/**** MidPanel Start ****/
+
+.createmsg .card-body{
+  padding: 15px 15px 0 15px;
+}
+
+.createmsg-input {
+  position: relative;
+  margin: 0px;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+  padding-left: 60px;
+}
+
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editicon {
+  height: 24px;
+  width: 24px;
+  opacity: 0.8;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+/**** Buttons ****/
+.createmsg-btns {
+  padding: 5px 2px;
+}
+
+button.mediatext span {
+  font-size: 13px;
+  padding-left: 8px;
+  color: #808080;
+  font-weight: 500;
+}
+
+button.mediatext:hover {
+  background-color: #00000014;
+}
+
+.createmsg-btns button{
+  padding: 12px 8px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.createmsg-btns {
+  display: flex; justify-content: space-between;
+}
+
+/**** Posts ****/
+
+.post .card-header i {
+  margin-top: 0;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.postusername {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.postdescription, .posttime {
+  font-size: 12px;
+  color: #474747;
+}
+
+.postinfo {
+  line-height: 15px;
+  float: left;
+  margin-left: 4px;
+}
+
+p.card-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: black;
+  clear: left;
+}
+
+.social-details {
+  list-style-type: none;
+  margin: 0 16px;
+  padding: 4px 0 8px;
+}
+
+.social-details li {
+  display: inline-block;
+}
+
+.social-count {
+  display: inline-block;
+  transform: translateY(1px);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  color: #474747;
+}
+
+.post .card-footer {
+  padding: 5px 10px;
+}
+
+.post .card-footer i {
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.post .mediatext {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.post button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+.post button:hover {
+  background-color: #00000014;
+}
+
+.post button:hover i{
+  color: black;
+}
+
+/**** MidPanel End ****/
+/**** MidPanel End ****/
+
+
+/**** RightPanel Start ****/
+/**** RightPanel Start ****/
+
+.right-panel i{
+  margin-top: 5px;
+}
+
+/**** RightTopPanel ****/
+.right-top-panel .card-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-top-panel .card-title img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.right-top-panel .card-title .header {
+  font-size: 14px;
+  flex: 0 0 auto;
+  margin-left: 7px;
+}
+
+.right-top-panel .card-title strong span {
+  position: relative;
+  bottom: 1px;
+}
+
+.follow {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.follow button {
+  border-radius: 50px;
+  padding: 4px 10px ;
+}
+
+.right-top-panel .card-footer {
+  font-size: 14px;
+  color: #0a66c2;
+  border-radius: 15px;
+}
+
+/**** RightPanel End ****/
+/**** RightPanel End ****/
+
+/**** Messages ****/
+.messages {
+  height: 50px;
+  width: 300px;
+  position: -webkit-sticky;
+  border-radius: 5px;
+  margin-left: auto;
+  right: 15px;
+}
+
+.messages a img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.messages-text {
+  font-size: 14px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

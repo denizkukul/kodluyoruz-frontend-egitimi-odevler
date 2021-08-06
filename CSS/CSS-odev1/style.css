@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********* İçeriği ortalamak için container içine yerleştirdik **********/
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+
+/******** Başlıklar *******/
+
+h1, h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.text-yellow {
+    color: sandybrown;
+}
+
+/****** Navigasyon linkleri ******/
+.navbar {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    padding: 0.8rem;
+}
+
+/***** Listeyi sayfa ortasına taşımak için parent elementi position relative ayarladık*****/
+.section {
+    position: relative;
+}
+
+/****** Ürünler listesini ortaya taşıdık *******/
+.products-list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.products-image-list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    text-align: center;
+}
+
+.products-image-list figure{
+    margin-bottom: 1rem;
+}
+
+.hakkımızda h3 {
+    text-align: left;
+}
+
+.products-image-list figure img{
+    height: 300px;
+    width: auto;
+}
+
+.price {
+    font-weight: 700;
+}
