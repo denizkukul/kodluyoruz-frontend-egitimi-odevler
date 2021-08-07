@@ -4,6 +4,6 @@ Google Ana Sayfasını Tasarlamak
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](screenshot.png)
 
 ### Live Site URL: [https://kodluyoruz-html-odev3.netlify.app/](https://kodluyoruz-html-odev3.netlify.app/)
