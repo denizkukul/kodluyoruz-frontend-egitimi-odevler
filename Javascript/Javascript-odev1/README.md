@@ -1,7 +1,7 @@
-# Kodluyoruz Bootstrap Ödev-1
+# Kodluyoruz Javascript Ödev-1
 
 ### Screenshot
 
-![](assets/screenshot.png)
+![](screenshot.png)
 
-### Live Site URL: [https://kodluyoruz-bootstrap-odev1.netlify.app/](https://kodluyoruz-bootstrap-odev1.netlify.app/)
+### Live Site URL: [https://kodluyoruz-javascript-odev1.netlify.app/](https://kodluyoruz-javascript-odev1.netlify.app/)
