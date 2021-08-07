@@ -1,7 +1,5 @@
 # Kodluyoruz HTML Ödev-3
 
-Google Ana Sayfasını Tasarlamak
-
 ### Screenshot
 
 ![](screenshot.png)
