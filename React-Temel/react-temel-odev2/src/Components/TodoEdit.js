@@ -1,9 +1,8 @@
-import { useEffect } from "react";
-import { useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 
 function TodoEdit({ todoList, setTodoList, label }) {
 
-    const [editVal, setEditVal] = useState(label)
+    const [editVal, setEditVal] = useState(label);
 
     const stopEdit = (e) => {
         e.preventDefault();
