@@ -6,7 +6,7 @@ Coding tests for Emoji Search example react project.
 
 ![](screenshot.png)
 
-## [Original Project](https://github.com/ahfarmer/emoji-search)
+## Link to Original Project: [https://github.com/ahfarmer/emoji-search](https://github.com/ahfarmer/emoji-search)
 
 ### Install
 ---
