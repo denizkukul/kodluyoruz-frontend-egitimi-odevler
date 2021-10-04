@@ -1,5 +1,3 @@
-# Kodluyoruz React Temel Ödev-5
-
 # buttonpack
 
 > Made with create-react-library
